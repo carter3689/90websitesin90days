@@ -1,6 +1,10 @@
 .background{
-	background-color: #FF0000;
+	background-color: #ECECEA;
 }
 .text-padding{
 	padding: 50px;
+}
+input{
+	width:250px !important; 
+	padding-left: 50px;
 }
