@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+<link rel="stylesheet" type="text/css" href="css/slider-style.css">
+	<title>Picture Slider</title>
+</head>
+<body onload="autoRun()">
+<div class="row">
+	<ul class="menu">
+		<li><a href="index.html"></a>Home</li>
+
+	</ul>
+</div>
+
+<div class="row">
+	
+<div class="columns small-6">
+	<div id="container">
+		
+		<img class="img" src="img/joel_profile.jpg" width="100%" height="100%" id="slideshow">
+
+		<div id="left-arrow" onclick="slider(-1)">
+			<img src="img/arrow_left.png">
+		</div>
+		<div id="right-arrow" onclick="slider(1)">
+			<img src="img/arrow_right.png">
+		</div>
+
+	</div>
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="columns small-12">
+	<h4>Here are a few of my Childhood memories in a slideshow made with vanilla Javascript. JQuery will be coming down the line, but for now I wanted to keep it simple. Day 3 Complete!!</h4>
+	</div>
+
+</div>
+<script src="js/slider.js"></script>
+</body>
+</html>
