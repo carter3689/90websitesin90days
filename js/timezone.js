@@ -21,7 +21,7 @@ function timeshift() {
 
 function ultimateshift(){
 	if (timezone = future){
-		document.write("These are different timezones")
+		document.getElementById("destinations").innerHTML = "These timeszones are different!"
 	}
 
 }

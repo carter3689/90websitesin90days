@@ -13,13 +13,36 @@ input{
 	list-style-type: none;
 }
 .container{
-	margin-left: 500px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 25%;
+	margin-right: 25%
+}
+
+.map{
+	height: 50%;
+	width: 50%;
 }
 
 .submit-margin{
-	margin-left: 13px;
+	margin-left: 3%;
 }
 
 .question-center{
-	margin-left: 44px;
+	margin: 0% 50%;
+}
+
+.wordoftheday{
+	font-size: 20px;
+	color: red;
+	margin: 0px 25%;
+}
+
+.date-style{
+	background-color: #ffcc99
+}
+
+canvas{
+	background:#FAEBD7;
+	margin: 0px 25%;
 }

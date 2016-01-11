@@ -1,0 +1,25 @@
+.background{
+	background-color: #ECECEA;
+}
+.text-padding{
+	padding: 50px;
+	margin-left: 150px;
+}
+input{
+	width:250px !important; 
+	padding-left: 50px;
+}
+.inline{
+	list-style-type: none;
+}
+.container{
+	margin-left: 500px;
+}
+
+.submit-margin{
+	margin-left: 13px;
+}
+
+.question-center{
+	margin-left: 44px;
+}
